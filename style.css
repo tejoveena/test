@@ -1,0 +1,113 @@
+*
+{
+	margin :0;
+	padding: 0;
+}
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a 
+{
+	color: white;
+
+	text-decoration: none;
+	padding: 5px;
+	font-family: "Verdana",sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.logo img
+{
+	margin-left:500px;
+	margin-top:130px;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1200px;
+	margin:auto;
+}
+.hero {
+	position: absolute;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top: 0px;
+
+}
+
+h1
+{
+	color: pink;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 350px;
+	margin-left:250px;
+	font-family: "Verdana",sans-serif;
+}
+
+.button
+{
+	margin-top: 50px;
+	margin-left: 500px;
+}
+
+.btn
+{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.btn-one
+{
+	
+	background-color: red;
+	font-family: "Verdana",sans-serif;
+
+}
+
+.btn-two:hover
+{
+	
+	background-color: red;
+	transition: all 0.5s ease-in;
+}
