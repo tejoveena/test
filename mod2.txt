@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css positioning</title>
+<link href="s1.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<nav>
+	<ul>
+	<li>home</li>
+	<li>link</li>
+	<li>sign</li>
+	<li>login</li>
+	</ul>
+	</nav>
+<div class="wrapper">
+<div id="banner">
+<img src="nature1.jpg" width:"100%">
+<h3>Beautiful Nature!!</h3>
+</div>
+<div class="services">
+<div class="service">
+	<h3>SERVICE 1</h3>
+	<p>This is service 1</p>
+</div>
+<div class="service">
+	<h3>SERVICE 2</h3>
+	<p>This is service 2</p>
+</div>
+
+</div>
+
+<div class="content">
+	<h3>CONTENT</h3>
+	<p>css styling</p>
+</div>
+<div class="columns">
+<section>
+	<h3>This is column 1</h3>
+	<p>This is para 1</p>
+	<p>.....</p>
+</section>
+<aside>
+<h3>This is column 2</h3>
+	<p>This is para 2</p>
+	<img src="nature1.jpg" width:"100%">
+</aside>
+</div>
+</div>
+</body>
+</html>
