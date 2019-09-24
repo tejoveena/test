@@ -64,16 +64,16 @@
 	text-align:justify;
 }
 			
-		aside {
+		/*aside {
 			float: right;
 			width: 60%;
 			padding:1%;
 			margin: 1%;
 			background:#f2f2f2;
-		}
-		section {
+		}*/
+		section,aside {
 		float:left;
-		width:60%;
+		width:45%;
 		padding:1%;
 		margin:1%;
 		background:#f2f2f2;
@@ -89,15 +89,16 @@
 			overflow: hidden;
 			margin:1%;
 			position: relative;
+
 			z-index: 2;
 		}
 		#banner h2 {
 			position: absolute;;
-			top:k30px;
+			top:100px;
 			margin: 0;
 			width: 100%;
 			text-align: center;
-			color: red;
+			color: yellow;
 		}
 		nav {
 			background:#333;
@@ -150,7 +151,7 @@
 	<div class="content">
 		<h2>CONTENT</h2>
 		<p>Css styling</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<p>Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.The word nature is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth". Natura is a Latin translation of the Greek word physis (φύσις), which originally related to the intrinsic characteristics that plants, animals, and other features of the world develop of their own accord
 	</p></div>
 <div class="columns">	
 <section>
@@ -161,7 +162,7 @@
 <aside>
 <h3>This is column 2</h3>
 	<p>This is para 2</p>
-	<img src="nature1.jpg" width:"100%">
+	<img src="nature1.jpg" width="100%">
 </aside>
 </div>
 </div>
